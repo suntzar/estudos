@@ -27,16 +27,15 @@ body
 
 h1
 {
+    position: relative;
 }
 
 .title
 {
-    position: absolute;
+    position: relative;
     font-size: 35px;
-    padding: 20px;
     color: rgb(221, 221, 221);
-    left: 50px;
-    text-shadow: 0 0 5px #fff, 0 0 20px #fff;
+    left: 30px;
 }
 
 .topbar
@@ -94,6 +93,50 @@ p
 
 .iconb:hover
 {
-    transition: border 0.5s;
+    transition: 1s;
     border: 1px solid #ffffff38;
+}
+
+.timeline
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 30px;
+    margin: 10px 0px 0px 0px;
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+}
+
+.tl-box1
+{
+    margin: 5px;
+}
+
+.tl-box2
+{
+    margin: 5px;
+}
+
+.tl-text
+{
+    margin: 5px;
+}
+
+.tl-barw
+{
+    width: 2px;
+    height: auto;
+    background-color: rgb(43, 43, 43);
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.tl-barh
+{
+    width: auto;
+    height: 2px;
+    background-color: rgb(43, 43, 43);
+    margin: 5px;
+    border-radius: 50%;
 }
